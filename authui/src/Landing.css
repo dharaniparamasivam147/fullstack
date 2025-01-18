@@ -1,0 +1,32 @@
+.backImg{
+    background-image: url("https: //i.pinimg.com/736x/32/26/44/3226445073795f50c982c6440ae49542.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 400px;
+    /* Set a max width for the form container */
+    margin: 0 auto;
+    /* Center the container */
+
+}
+
+.form {
+    display: flex;
+    /* Use flexbox for alignment */
+    flex-direction: column;
+    /* Stack children vertically */
+    justify-content: center;
+    /* Center content vertically */
+    padding: 20px;
+    /* Add padding for better spacing */
+    box-sizing: border-box;
+    /* Include padding in width/height calculations */
+}
+
+button {
+    margin-top: 10px;
+    /* Add some space above the button */
+}
+
